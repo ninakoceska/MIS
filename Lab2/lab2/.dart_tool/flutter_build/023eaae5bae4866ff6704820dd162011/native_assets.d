@@ -1,0 +1,1 @@
+ C:\\Users\\Nina\\Downloads\\mis_lab_2-main\\mis_lab_2-main\\.dart_tool\\flutter_build\\023eaae5bae4866ff6704820dd162011\\native_assets.yaml: 

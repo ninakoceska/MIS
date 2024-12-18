@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mis_lab_2/screens/index.dart';
-import 'package:mis_lab_2/screens/joke-screen.dart';
+import 'package:lab2/screens/homeScr.dart';
+import 'package:lab2/screens/randomJokeScr.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'mis_lab_2',
+      title: 'lab2',
       theme: ThemeData(primarySwatch: Colors.grey),
       initialRoute: "/",
       routes: {
-        "/": (context) => IndexScreen(),
-        "/random_joke": (context) => RandomJokeScreen(),
+        "/": (context) => Index(),
+        "/random_joke": (context) => RandomJoke(),
       },
     );
   }

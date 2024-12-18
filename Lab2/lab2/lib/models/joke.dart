@@ -1,21 +1,24 @@
 class Joke {
-  int ID;
-  String textA;
-  String textB;
-  String Type;
 
-  Joke(
-      {required this.ID,
-      required this.textA,
-      required this.textB,
-      required this.Type});
+  int Id;
+  String Type;
+  String TextA;
+  String TextB;
+
+
+  Joke({
+      required this.Id,
+      required this.Type,
+      required this.TextA,
+      required this.TextB
+  });
 
   factory Joke.fromJson(Map<String, dynamic> json) {
     return Joke(
-      ID: json['ID'],
-      Type: json['Type'],
-      textA: json['textA'],
-      textB: json['textB'],
+      Id: json['id'],
+      Type: json['type'],
+      TextA: json['setup'],
+      TextB: json['punchline'],
     );
   }
 }

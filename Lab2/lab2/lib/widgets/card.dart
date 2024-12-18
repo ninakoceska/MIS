@@ -5,7 +5,9 @@ import '../models/joke.dart';
 class JCard extends StatefulWidget {
   final Joke joke;
 
-  const JCard({super.key, required this.joke});
+  const JCard({
+    super.key, required this.joke
+  });
 
   @override
   JCardState createState() => JCardState();
@@ -32,7 +34,7 @@ class JCardState extends State<JCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      widget.joke.textA,
+                      widget.joke.TextA,
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -40,10 +42,10 @@ class JCardState extends State<JCard> {
                     ),
                     if (show) ...[
                       Text(
-                        widget.joke.textB,
+                        widget.joke.TextB,
                         style: const TextStyle(
                           fontSize: 16,
-                          color: Color.fromARGB(225, 112, 67, 143),
+                          color: Color.fromARGB(255, 111, 59, 156),
                         ),
                       ),
                     ]

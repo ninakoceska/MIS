@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lab2/models/joke.dart';
 import 'package:lab2/services/api_services.dart';
-import 'package:lab2/widgets/joke_card.dart';
+import 'package:lab2/widgets/card.dart';
 
 class RandomJoke extends StatelessWidget {
   final ApiService apiService = ApiService();

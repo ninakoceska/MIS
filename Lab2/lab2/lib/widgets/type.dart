@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mis_lab_2/screens/list.dart';
+import 'package:lab2/screens/jokeListScr.dart';
 
 class JokeTypeCard extends StatelessWidget {
   final String type;

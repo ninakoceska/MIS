@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab2/services/api_services.dart';
-import 'package:lab2/widgets/joke_card.dart';
+import 'package:lab2/widgets/card.dart';
 
 class JokeListScreen extends StatelessWidget {
   final String type;
